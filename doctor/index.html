@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">patient medical status</h1>
+        <table class="content-table">
+            <thead>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Chest pain</th>
+                <th>Resting blood pressure</th>
+                <th>Serum cholesterol</th>
+                <th>Fasting blood sugar higher than 120mmg</th>
+                <th>Resting electrocardigram</th>
+                <th>Maximum heart rate achieved</th>
+                <th>Exercise induced angina</th>
+                <th>ST depression induced by exercise</th>
+                <th>Slope of the peak exercise ST segmen</th>
+                <th>Number of major vessels</th>
+                <th>Thallium heart scan</th>
+                <th>temperature</th>
+                <th>Target</th>
+
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCKOA7HyT4g_mKZQ-ioa9Qjorhzoe_GfKc",
+            authDomain: "unique-cinema-323410.firebaseapp.com",
+            databaseURL: "https://unique-cinema-323410-default-rtdb.firebaseio.com",
+            projectId: "unique-cinema-323410",
+            storageBucket: "unique-cinema-323410.appspot.com",
+            messagingSenderId: "1054353054353",
+            appId: "1:1054353054353:web:f6394303402879317cfd30",
+            measurementId: "G-QL0MFBQ6GF"
+        };
+        firebase.initializeApp(config);
+        const db = firebase.firestore();
+        db.settings({ timestampsInSnapshots: true });
+    </script>
+    <script src="app.js"></script>
+
+
+
+
+</body>
+
+</html>
