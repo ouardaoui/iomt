@@ -17,7 +17,6 @@ function runderData(doc) {
     const slope = document.createElement("td")
     const ca = document.createElement("td")
     const thal = document.createElement("td")
-    const temperature = document.createElement("td")
     const target = document.createElement("td")
 
 
@@ -36,12 +35,11 @@ function runderData(doc) {
     slope.innerHTML = doc.data().n
     ca.innerHTML = doc.data().o
     thal.innerHTML = doc.data().x
-    temperature.innerHTML = doc.data().z
     target.innerHTML = doc.data().t
 
     tr.appendChild(age); tr.appendChild(sex); tr.appendChild(cp); tr.appendChild(trestbps); tr.appendChild(chol)
     tr.appendChild(fbs); tr.appendChild(restecg); tr.appendChild(thalach); tr.appendChild(exang); tr.appendChild(oldpeak)
-    tr.appendChild(slope); tr.appendChild(ca); tr.appendChild(thal); tr.appendChild(temperature); tr.appendChild(target)
+    tr.appendChild(slope); tr.appendChild(ca); tr.appendChild(thal); tr.appendChild(target)
     tbody.appendChild(tr);
 
 }

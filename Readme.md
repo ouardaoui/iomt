@@ -23,13 +23,13 @@ To Run or test the app on your PC.
 
 To Run or test the app on your phone.
 1. download expo from playstore or appstore
-2. open this link in ur pc [user app](expo.dev/@ouardaoui/prototypeiomt) and scan code barre
+2. open this link in ur pc [https://expo.dev/@ouardaoui/prototypeiomt](expo.dev/@ouardaoui/prototypeiomt) and scan code barre
 # store and processing data
 ## features
 - flask 
 - firebase
 # visualistation firestore data 
-simple table bluilded with (javascript,html,css)
+simple table bluilded with (javascript,html,css) and axios for fetching data
 ## how to run this app
 after download this respository
 1. install live server.
