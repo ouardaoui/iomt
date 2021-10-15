@@ -1,5 +1,8 @@
-firebase_admin==5.0.2
-Flask==1.1.2
-pickle5==0.0.11
+
 numpy==1.19.2
-flask_cors==3.0.10
+Flask==1.1.2
+firebase_admin==5.0.2
+pickle5==0.0.11
+gunicorn==20.1.0
+sklearn 
+Flask-Cors
