@@ -23,7 +23,14 @@ To Run or test the app on your PC.
 
 To Run or test the app on your phone.
 1. download expo from playstore or appstore
-2. open this link in ur pc [https://expo.dev/@ouardaoui/prototypeiomt](expo.dev/@ouardaoui/prototypeiomt) and scan code barre
+2. open this link in ur pc [https://expo.dev/@ouardaoui/prototypeiomt](expo.dev/@ouardaoui/prototypeiomt) and scan code barre.
+
+or you can just open the camera app on your device and scan the code below if you had expo app.
+
+![image](expo.png)
+
+Or, open this link on your device to preview channel “default”
+[exp://exp.host/@ouardaoui/prototypeiomt](exp://exp.host/@ouardaoui/prototypeiomt)
 # store and processing data
 ## features
 - flask 
